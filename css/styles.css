@@ -1,3 +1,79 @@
-.primary {
-    background-color: aqua;
+/* color heder: #000000, #2196F3, #212121, #757575
+background-color  */
+
+.site-heder {
+    background-color: #FFFFFF;
+}
+/* LOGO */
+.logo-web {
+    color: #2196F3;
+}
+.logo-studio {
+    color: #000000;
+}
+
+/* link-nav */
+.link-nav {
+    color: #212121;
+}
+.link-nav:hover,
+.link-nav:focus {
+    color: #2196F3;
+}
+/* link-auth */
+.link-auth {
+    color: #757575;
+}
+.link-auth:hover,
+.link-auth:focus {
+    color: #2196F3;
+}
+
+/* Hyro */
+.hyro {
+    background-color: #2F303A;
+}
+.hyro-text {
+    color: #FFFFFF;
+}
+.hyro-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+  
+}
+/* about company */
+
+.title-section {
+    color: #212121;
+}
+.text-section {
+    color: #757575;
+}
+/* work */
+.work {
+    color: #212121;
+}
+/* Team */
+.team {
+    background-color: #F5F4FA;
+}
+.title-team {
+    color: #212121;
+}
+.text-team {
+    color: #757575;
+}
+/* footer */
+.site-footer {
+    background-color: #2F303A;
+}
+.footer-studio {
+    color: #FFFFFF;
+}
+.footer-address {
+    color: #FFFFFF;
+}
+.footer-data {
+    color: rgba(255, 255, 255, 0.6);
 }
