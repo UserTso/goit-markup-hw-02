@@ -77,3 +77,25 @@ background-color  */
 .footer-data {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* section button */
+.btn {background-color: rgba(245, 244, 250, 1);
+color: rgba(33, 33, 33, 1);
+border: none;}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+/* section portfolio */
+.title-portfolio {
+    color: rgba(33, 33, 33, 1);
+}
+.page-portfolio {
+    color: rgba(117, 117, 117, 1);
+}
