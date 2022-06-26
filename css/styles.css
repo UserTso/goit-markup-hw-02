@@ -1,12 +1,19 @@
-/* color heder: #000000, #2196F3, #212121, #757575
-background-color  */
+/* primary-text-color  #212121
+secondary-text-color #757575
+background-color #2196F3 #000000*/
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --bg-hover-logo: #2196F3
+}
 
 .site-heder {
     background-color: #FFFFFF;
 }
 /* LOGO */
 .logo-web {
-    color: #2196F3;
+    color: var(--bg-hover-logo);
 }
 .logo-studio {
     color: #000000;
@@ -14,19 +21,19 @@ background-color  */
 
 /* link-nav */
 .link-nav {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .link-nav:hover,
 .link-nav:focus {
-    color: #2196F3;
+    color: var(--bg-hover-logo);
 }
 /* link-auth */
 .link-auth {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .link-auth:hover,
 .link-auth:focus {
-    color: #2196F3;
+    color: var(--bg-hover-logo);
 }
 
 /* Hyro */
@@ -37,7 +44,7 @@ background-color  */
     color: #FFFFFF;
 }
 .hyro-button {
-    background-color: #2196F3;
+    background-color: var(--bg-hover-logo);
     color: #FFFFFF;
     border: none;
   
@@ -45,24 +52,24 @@ background-color  */
 /* about company */
 
 .title-section {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .text-section {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 /* work */
 .work {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 /* Team */
 .team {
     background-color: #F5F4FA;
 }
 .title-team {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .text-team {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 /* footer */
 .site-footer {
@@ -80,20 +87,20 @@ background-color  */
 
 /* section button */
 .btn {background-color: rgba(245, 244, 250, 1);
-color: rgba(33, 33, 33, 1);
+color: var(--primary-text-color);
 border: none;}
 
 .btn:hover,
 .btn:focus {
-    background-color: rgba(33, 150, 243, 1);
+    background-color: var(--bg-hover-logo);
     color: rgba(255, 255, 255, 1);
 }
 
 
 /* section portfolio */
 .title-portfolio {
-    color: rgba(33, 33, 33, 1);
+    color: var(--primary-text-color);
 }
 .page-portfolio {
-    color: rgba(117, 117, 117, 1);
+    color: var(--secondary-text-color);
 }
