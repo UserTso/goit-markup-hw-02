@@ -15,9 +15,12 @@ background-color #2196F3 #000000*/
     letter-spacing: 0.03em
 }
 
+a {text-decoration: none;}
+
 ul {
     list-style: none;
 }
+
 /* HEDER */
 .site-heder {
     background-color: #FFFFFF;
@@ -47,6 +50,9 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.02em;
         }
+.link-nav.current {
+    color: var(--bg-hover-logo);
+}
 
 .link-nav:hover,
 .link-nav:focus {
@@ -91,6 +97,7 @@ ul {
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
+        font-family: inherit;
   
 }
 /* about company */
@@ -162,6 +169,7 @@ ul {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+        font-style: normal;
 }
 .footer-data {
     color: rgba(255, 255, 255, 0.6);
@@ -169,6 +177,10 @@ ul {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
+}
+.footer-data:hover,
+.footer-data:focus {
+    color: var(--bg-hover-logo);
 }
 
 /* second page */
@@ -182,6 +194,7 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    font-family: inherit;
 
 }
 
